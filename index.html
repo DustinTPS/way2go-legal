@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Way2Go Sports — Legal & Support</title>
+    <meta name="description" content="Legal and support information for the Way2Go Sports app, the companion for our Santa Clarita Valley youth sports league." />
+    <style>
+      :root {
+        --bg-a: #0A1B3D;
+        --bg-b: #12428A;
+        --card: rgba(255, 255, 255, 0.97);
+        --border: rgba(255, 255, 255, 0.4);
+        --text: #0A1B3D;
+        --text-soft: rgba(10, 27, 61, 0.74);
+        --accent: #E23744;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0; min-height: 100vh; display: flex; align-items: center;
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", Inter, sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at 12% 18%, rgba(226, 55, 68, 0.20), transparent 38%),
+          radial-gradient(circle at 88% 82%, rgba(18, 66, 138, 0.28), transparent 34%),
+          linear-gradient(160deg, var(--bg-a) 0%, var(--bg-b) 100%);
+      }
+      main { max-width: 620px; margin: 0 auto; padding: 56px 20px; }
+      .card { background: var(--card); border: 1px solid var(--border); border-radius: 32px; padding: 44px 34px; box-shadow: 0 28px 70px rgba(10, 27, 61, 0.35); }
+      .eyebrow { margin: 0 0 10px; color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; }
+      h1 { margin: 0 0 12px; font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.05; }
+      p { color: var(--text-soft); font-size: 1.05rem; line-height: 1.7; }
+      .links { margin-top: 28px; display: grid; gap: 12px; }
+      .links a { display: block; padding: 16px 20px; background: rgba(18, 66, 138, 0.07); border: 1px solid rgba(18, 66, 138, 0.14); border-radius: 16px; color: var(--text); text-decoration: none; font-weight: 600; }
+      .links a:hover { background: rgba(18, 66, 138, 0.12); }
+      .foot { margin-top: 24px; font-size: 0.9rem; }
+      a.plain { color: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <p class="eyebrow">Way2Go Sports</p>
+        <h1>Legal &amp; Support</h1>
+        <p>The Way2Go Sports app is the companion for families in our family-run Santa Clarita Valley youth sports league.</p>
+        <div class="links">
+          <a href="./privacy-policy/">Privacy Policy &rarr;</a>
+          <a href="./support/">App Support &rarr;</a>
+        </div>
+        <p class="foot">The league itself lives at <a class="plain" href="https://www.way2gosports.com">way2gosports.com</a>.</p>
+      </section>
+    </main>
+  </body>
+</html>
