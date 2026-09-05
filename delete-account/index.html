@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete your app account — Way2Go! Sports</title>
+    <meta name="description" content="Delete your Way2Go! Sports app account or request deletion without reinstalling the app. See what is removed and which league and safety records remain." />
+    <style>
+      :root {
+        --bg-a: #0A1B3D;
+        --bg-b: #12428A;
+        --card: rgba(255, 255, 255, 0.97);
+        --border: rgba(255, 255, 255, 0.4);
+        --text: #0A1B3D;
+        --text-soft: rgba(10, 27, 61, 0.74);
+        --accent: #E23744;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", Inter, sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at 12% 18%, rgba(226, 55, 68, 0.20), transparent 38%),
+          radial-gradient(circle at 88% 82%, rgba(18, 66, 138, 0.28), transparent 34%),
+          linear-gradient(160deg, var(--bg-a) 0%, var(--bg-b) 100%);
+      }
+      main { max-width: 780px; margin: 0 auto; padding: 56px 20px 72px; }
+      .card { background: var(--card); border: 1px solid var(--border); border-radius: 32px; padding: 40px 32px; box-shadow: 0 28px 70px rgba(10, 27, 61, 0.35); }
+      .eyebrow { margin: 0 0 10px; color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; }
+      h1 { margin: 0 0 8px; font-size: clamp(2rem, 4.5vw, 3rem); line-height: 1.04; }
+      h2 { margin: 32px 0 10px; font-size: 1.35rem; color: var(--accent); }
+      .meta { color: var(--text-soft); font-size: 0.9rem; margin: 0 0 6px; }
+      p, li { color: var(--text-soft); font-size: 1rem; line-height: 1.72; }
+      ul { padding-left: 22px; }
+      li { margin-bottom: 8px; }
+      a { color: var(--accent); }
+      a.back { display: inline-block; margin-top: 32px; font-weight: 600; text-decoration: none; }
+      .contact { margin-top: 24px; padding: 20px; background: rgba(18, 66, 138, 0.08); border-radius: 16px; }
+    
+      .request { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 14px 20px; margin: 6px 0; border-radius: 14px; background: #0A1B3D; color: white; font-weight: 700; text-decoration: none; }
+      .request:hover { background: #12428A; }
+      a:focus-visible { outline: 3px solid #12428A; outline-offset: 4px; }
+      a { overflow-wrap: anywhere; }
+      @media (max-width: 480px) { main { padding: 24px 16px 40px; } .card { padding: 28px 22px; border-radius: 24px; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card" aria-labelledby="title">
+        <p class="eyebrow">Way2Go! Sports</p>
+        <h1 id="title">Delete your app account</h1>
+        <p>You can request deletion here, even if you no longer have the app.</p>
+
+        <div class="contact">
+          <h2 style="margin-top:0;">Request deletion by email</h2>
+          <p>Send your request from the email address you use to sign in to Way2Go! Sports. Use the subject <strong>Delete my Way2Go app account</strong>.</p>
+          <a class="request" href="mailto:dustinway2go@gmail.com?subject=Delete%20my%20Way2Go%20app%20account">Email a deletion request</a>
+          <p>If the button does not open your email app, write to <a href="mailto:dustinway2go@gmail.com">dustinway2go@gmail.com</a>. Please do not send passwords, sign-in codes, or payment card details.</p>
+          <p>We will confirm ownership of the account before processing a request and confirm when it is complete. If you cannot use your sign-in email, <a href="../support/">contact us for help</a>.</p>
+        </div>
+
+        <h2>Delete from the app</h2>
+        <p>Open <strong>Profile → Delete account</strong>, review the confirmation, and choose <strong>Delete account</strong>. The app signs you out after the server confirms deletion. If an error appears, your request has not been confirmed; retry or contact us.</p>
+
+        <h2>What is removed</h2>
+        <p>Deletion removes your app sign-in sessions, notification devices, calendar access, personal app settings, caregiver sharing links, app access requests, and messages and chat photos you posted. Existing app and parent-browser sessions lose access. Other family members keep their own accounts.</p>
+
+        <h2>What remains</h2>
+        <ul>
+          <li><strong>League records.</strong> Registration and payment records remain under the league's website policies. Scheduled team events remain, and some operational attendance and notice records may remain so the league can continue operating.</li>
+          <li><strong>Safety records.</strong> Moderation outcomes and a hashed account identifier may remain to preserve other people's blocking choices and prevent old sign-in sessions from regaining access.</li>
+          <li><strong>Recovery copies.</strong> Encrypted disaster-recovery backups may persist after deletion. They are separate from the active app and are not available to families.</li>
+          <li><strong>Copies already shared.</strong> A recipient may have saved a message, photo, or notification outside the app. Account deletion cannot remove those copies from their device.</li>
+        </ul>
+        <p><strong>Deleting your app account does not cancel a league registration, withdraw a player, or request a refund.</strong> Contact Way2Go separately for help with a registration or league record.</p>
+        <p>Read our <a href="../privacy-policy/#account-deletion">privacy and retention details</a>, or visit <a href="../support/">App Support</a>.</p>
+        <a class="back" href="../">← Legal &amp; Support</a>
+      </section>
+    </main>
+  </body>
+</html>
